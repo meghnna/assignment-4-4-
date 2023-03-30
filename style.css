@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.inner-box {
+    width: 45%;
+    padding:15px;
+}
+
+.inner-box:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.big-box {
+    text-align:left;
+}
+
+.title {
+    margin: 5px;
+    font-size: 40px;
+}
+
+.content {
+    margin:20px;
+}
+
+.small-box {
+    padding:10px;
+}
+
+.image {
+    margin:30px;
+}
+
+.image > img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.small-title {
+    font-weight: bold;
+    margin:3px;
+}
+
+.small-content {
+    margin:2px;
+}
